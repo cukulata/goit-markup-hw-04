@@ -59,17 +59,17 @@ nav {
     gap: 40px;
 }
 .head-title {
-    max-width: 496px;
+    max-width: 1158px;
 }
 .blue-button {
     display: block;
     min-width: 169px;
     height: 56px;
     border: none;
-    background-color: #4d5ae5;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
 }
 .nav .header-nav:hover,
 .nav .header-nav:focus{
@@ -93,13 +93,14 @@ color: #434455;
     background-color: #2e2f42;
 }
 .main-container {
-    display: flex;
+    align-items: center;
+    text-align: center;
+    height: auto;
 }
 .main-section {
     background-color: #2e2f42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office\ 1.jpg);
-    max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
