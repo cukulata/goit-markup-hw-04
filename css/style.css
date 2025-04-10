@@ -42,7 +42,7 @@ nav {
     gap: 40px;
 }
 .head-title {
-    max-width: 496px
+    max-width: 496px;
 }
 .blue-button {
     display: block;
@@ -73,6 +73,9 @@ color: #434455;
 }
 .section .features {
     background-color: #2e2f42;
+}
+.main-container {
+    display: flex;
 }
 .main-section {
     background-color: #2e2f42;
