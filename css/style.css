@@ -322,6 +322,7 @@ color: #434455;
     border-top: none;
     position: relative;
     overflow: hidden;
+    transform: translateY(0%);
 }
 .our-portfolio-text{
     position: absolute;
