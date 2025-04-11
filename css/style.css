@@ -13,8 +13,8 @@ ul {
 }
 .container {
     width: 1158px;
-    margin: 0 auto;
     padding: 0 15px;
+    margin: 0 auto;
 }
 nav {
     display: flex;
@@ -237,6 +237,7 @@ color: #434455;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    width: 100%;
 }
 .social-media-list-scope:hover,
 .social-media-list-scope:focus {
@@ -369,6 +370,7 @@ color: #434455;
 }
 .social-media-list-content {
     display: flex;
+    width: 40px;
 }
 .footer-logo {
     font-family: "Raleway", sans-serif;
