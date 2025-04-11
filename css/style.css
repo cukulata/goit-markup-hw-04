@@ -363,6 +363,7 @@ color: #434455;
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 16px;
+    text-align: center;
 }
 .social-media-list {
     display: flex;
