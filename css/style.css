@@ -7,9 +7,11 @@ ul {
 .header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    background: #fff;
 }
 .header-container {
     display: flex;
+    align-items: center;
 }
 .container {
     width: 1158px;
@@ -29,6 +31,15 @@ nav {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+}
+.logo-add {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
 }
 .header-list{
     display: flex;
@@ -258,7 +269,6 @@ color: #434455;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link:hover,
 .link:focus {
