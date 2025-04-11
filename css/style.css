@@ -73,7 +73,14 @@ nav {
     gap: 40px;
 }
 .head-title {
-    max-width: 1158px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    max-width: 496px;
+    margin: 0 auto 48px;
 }
 .blue-button {
     display: block;
@@ -107,9 +114,9 @@ color: #434455;
     background-color: #2e2f42;
 }
 .main-container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
-    height: auto;
 }
 .main-section {
     background-color: #2e2f42;
@@ -154,6 +161,7 @@ color: #434455;
     border-radius: 4px;
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
+    width: 264px;
 }
 .visually-hidden {
     position: absolute;
@@ -170,9 +178,16 @@ color: #434455;
 .about-list {
     display:  flex;
     gap: 24px;
+    padding: 0;
+    margin: 0;
 }
 .about-item {
     width: calc((100% - 72px) / 4);
+}
+.about-section-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 .features-title {
     font-weight: 500;
